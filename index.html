@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>동기부여 홈화면</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }  
+        
+        body {background-image: url(https://img.freepik.com/free-vector/meadow-with-grass-pond-morning_107791-10142.jpg?w=1060&t=st=1669736274~exp=1669736874~hmac=9432fea2c2bea127931c0b3bad556224cdc077bdbd786af7357a9c0604195eb6);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        color: white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+            color: rgb(205, 222, 232);
+        }
+
+        .greeting {
+            font-size: 50px;
+            color: rgb(205, 222, 232);
+        }
+
+        .todo {
+            font-size: 20px;
+        }
+
+        .content {
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(232, 255, 221);
+        }
+        .author {
+            font-size: 20px;
+            font-style: italic;
+            color: rgb(232, 255, 221);
+        }
+
+        .main {
+            width: 100vw;
+            height: 45vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .middle {
+            width: 100vw;
+            height: 50vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+    <div id="time" class="time"></div>
+    <div class="greeting">How are you today?</div>
+    </div>
+    <div class="middle">
+    <div class="todo"> V스트래칭
+    </div>
+    <div class="quote">
+        <div id="content" class="content"></div>
+        <div id="author" class="author"></div>
+    </div>
+
+</body>
+
+</html>
